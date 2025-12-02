@@ -99,21 +99,7 @@ porque ya son las 11:15 y mañana me quiero levantar temprano para ver a la chav
         <a href="https://www.youtube.com/@ShityGames/featured" target="_blank" class="cabeza">Nuestro YouTube no oficial</a>
              
         <p>Esta pagina fue visitada esta cantidad de veces: </p>
-<p>Esta página ha sido visitada <span id="visits">...</span> veces.</p>
-
-<script>
-    // 1. Obtiene el contador actual y lo incrementa
-    fetch('https://api.countapi.xyz/hit/gudengine_io/gud_page_visits')
-      .then(res => res.json())
-      .then(data => {
-        // 2. Coloca el valor en el elemento con id="visits"
-        document.getElementById('visits').innerText = data.value;
-      })
-      .catch(error => {
-        console.error('Error al cargar el contador:', error);
-        document.getElementById('visits').innerText = 'N/A';
-      });
-</script>      </div>
+<p>Esta página ha sido visitada <img src="https://count.getloli.com/hit/gudengine/visits?style=flat-square" alt="Contador de Visitas"> veces.</p>     </div>
        
        
       
@@ -123,6 +109,7 @@ porque ya son las 11:15 y mañana me quiero levantar temprano para ver a la chav
 </body>
 
 </html>
+
 
 
 
