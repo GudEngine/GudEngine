@@ -17,7 +17,7 @@ font-size: 40px;
 background-color: #046133; /* Base color of the div */
   background-image: linear-gradient(-45deg,
     transparent 40%, /* Start transparent */
-    rgba(252, 249, 249) 50%, /* White highlight */
+    rgb(252, 249, 249) 50%, /* White highlight */
     transparent 60% /* End transparent */
   );
 }
@@ -118,5 +118,6 @@ footer{
     margin: 0;
 
 }
+
 
 
