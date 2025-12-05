@@ -9,16 +9,42 @@ header{
     font-size: 28px;
     display: flex;
 }
-#logo{
+.logo{
     display: flex;
+}
+#canciones .logo{
+font-size: 40px;
+background-color: #046133; /* Base color of the div */
+  background-image: linear-gradient(-45deg,
+    transparent 40%, /* Start transparent */
+    rgba(255, 255, 255, 0.3) 50%, /* White highlight */
+    transparent 60% /* End transparent */
+  );
+}
+#canciones2 .logo{
+background-color: #25dd0d; /* Base color of the div */
+  background-image: linear-gradient(-45deg,
+    transparent 40%, /* Start transparent */
+    #e20d0d 50%, /* White highlight */
+    transparent 60% /* End transparent */
+  );
+}
+#canciones3 .logo{
+background-color: #f70909; /* Base color of the div */
+  background-image: linear-gradient(-45deg,
+    transparent 40%, /* Start transparent */
+    #0a35f1 50%, /* White highlight */
+    transparent 60% /* End transparent */
+  );
+}
+#canciones1{
+background-color: green;
 }
 #tachar{
     text-decoration: line-through;
 }
-#escudoCabezal{
-    height: 40px;
-}
-ul{
+
+#submenu{
     list-style-type: none;
     display: flex;
     
@@ -29,16 +55,6 @@ ul{
     color: aqua;
     font-size: 30px;
 }
-
-.boton{
-    background: red;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 10px;
-    max-width: fit-content;
-}
 #laberinto{
     position: relative;
     display: flex;
@@ -47,24 +63,12 @@ ul{
     color: antiquewhite;
 }
 
-#sobreNosotros{
-    margin: 0;
-}
-
-#seccion2, #sobreNosotros{
-    background-color: black;
-    color: aliceblue;
-}
 
 .lore{
     width: auto;
+  background-color: black;
+    color: aliceblue;
 }
-
-#maradona{
-    width: 900px;
-    height: 250px;
-}
-
 .seccion{
     display: inline-flex;
     padding: 2px 16px;
@@ -77,11 +81,7 @@ ul{
 
 }
 
-#seccion2 img, #icono{
-    width: 170px;
-    height: 140px;
-    border-radius: 100%;
-}
+
 
 #inicio img{
     height: 400px;
@@ -100,34 +100,6 @@ ul{
 
 }
 
-
-#citaImagen{
-    display: flex;
-}
-
-#formulario{
-    padding: 50px;
-    gap: 20px;
-    display: inline-block;
-    max-height: fit-content;    
-}
-
-#contenedor{
-    display: flex;
-    position: relative; 
-    z-index: 1;
-    background-color: red;
-    color: white;
-    margin-bottom: 0;
-}
-
-input, select{
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 5px;
-    
-}
-
 footer{
     display: flex;
     background-color: rgb(204, 75, 75);
@@ -139,64 +111,9 @@ footer{
 #redes{
     color: aqua;
 }
-
-
-.jugador {
-  border-radius: 10px;
-  width: 200px;
-  padding-bottom: 6px;
-  box-shadow: 0 14px 10px 6px  rgba(216, 11, 35, 0.2);
-  max-height: fit-content;
-}
  
 #compras, #inicio{
     background-color: black;
     color: bisque;
     margin: 0;
 }
-
-#noti{
-    position: relative;
-    left: 49%;
-}
-#ennegrecer{
-    background-color: black;
-    margin: 0;
-}
-#seccion3{
-    margin: 0px;
-    background-color: aliceblue;
-}
-#importante{
-    background-color: aliceblue;
-}
-.jugador img {
-  width: 100%;
-  display: block;
-}
-
-.info {
-  background-color: #d10000;
-  padding: 10px;
-  position: relative;
-}
-
-.nombre {
-  margin: 0;
-  font-size: 16px;
-}
-.lore{
-    background-color: black;
-    color: aliceblue;
-}
-.numero {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background: black;
-  color: red;
-  padding: 5px 10px;
-  font-weight: bold;
-  font-size: 18px;
-}
-
